@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Un formulario básico con HTML y CSS" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <main class="main">
+      <!-- Heading and paragraph -->
+      <div class="text-container">
+        <a href="https://github.com/julianjuan77">
+          <img
+            src="logo.png"
+            alt="Logo del sitio web que lleva al perfil de linkedin"
+            class="text-container__logo"
+          />
+        </a>
+        <h1>Formulario</h1>
+        <p class="text-container__paragraph">
+          Formulario básico con HTML y CSS
+        </p>
+      </div>
+      <!-- Form -->
+      <div class="decorative-rectangle">
+        <div class="form-container">
+          <form class="form-container__form">
+            <h2>INGRESA TUS DATOS</h2>
+            <label for="name">Nombre</label>
+            <input type="text" name="name" />
+            <label for="email">Correo electrónico</label>
+            <input type="text" name="email" />
+            <label for="website">Sitio web</label>
+            <input type="text" name="website" />
+            <input
+              type="submit"
+              name="submit"
+              value="Enviar"
+              class="form-container__submit"
+            />
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
